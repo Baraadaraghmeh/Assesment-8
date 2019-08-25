@@ -1,0 +1,17 @@
+
+Var
+
+*Scope essentially means: where these variables are available for use
+
+*declarations are globally scoped or function/locally scoped.
+
+*var is global when it outside of function 
+
+*var variables can be re-declared and updated
+
+
+
+LET
+
+let is preferred for variable declaration now.
+*var variables can be re-declared and updated.

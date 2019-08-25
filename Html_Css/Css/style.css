@@ -1,0 +1,17 @@
+
+#C1,p{color: black; background-color: white}
+
+p:hover, h1:hover {
+ background-color: blue;
+ color: white
+}
+h1 {border-style: solid double;
+}
+
+ h1{ 
+    width: 400px;
+  border: 20px solid green;
+  padding: 100px;
+  margin: 70px;
+}
+#parent{width: }

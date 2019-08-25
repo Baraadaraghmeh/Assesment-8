@@ -1,0 +1,13 @@
+console.log ("baraa");
+console.log(1+13);
+console.log ("12+10");
+console.log(3%2);
+console.log(4%2);
+console.log("baraa"+"daraghmeh");
+console.log(1+"text");
+console.log("hello" - "it's me");
+console.log("hi"*"baraa");
+let x= 1997; 
+let y=2019 ;  
+let age=y-x;
+console.log(age);

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="2.css">
+    <style type="text/css">
+    	
+
+    .container {
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: start;
+}
+
+.container img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 100%;
+  }
+
+.container:nth-child(3){
+
+grid-column: span 2;
+grid-row: span 2;
+}
+    </style>
+    <title>Exercise 2</title>
+</head>
+
+<body>
+<div class="container">
+<img src="https://picsum.photos/200/300/?blur">
+<img src="https://picsum.photos/200/300/?blur=2">
+<img src="https://picsum.photos/200/300?grayscale">
+<img src="https://picsum.photos/id/237/200/300">
+<img src="https://picsum.photos/id/237/200/300">
+<img src="https://picsum.photos/id/870/200/300?grayscale&blur=2">
+<img src="https://picsum.photos/id/237/200/300">
+<img src="https://picsum.photos/id/237/200/300" >
+<img src="https://picsum.photos/200/300/?blur=2">
+<img src="https://picsum.photos/id/237/200/300" >
+</div>
+</body>
+</html>

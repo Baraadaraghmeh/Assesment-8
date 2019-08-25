@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>flex 4</title>
+    <style>
+
+
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1c1f24;
+  }
+  
+  ul.ChatLog {
+    list-style: none;
+  }
+  
+  .ChatLog {
+    max-width: 20em;
+    margin: 0 auto;
+  }
+  .ChatLog .ChatLog__entry {
+    margin: .5em;
+  }
+  
+  .ChatLog__entry {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    max-width: 100%;
+  }
+  
+  .ChatLog__entry.ChatLog__entry_mine {
+    flex-direction: row-reverse;  
+  }
+  
+  .ChatLog__avatar {
+    flex-shrink: 0;
+    flex-grow: 0;
+    z-index: 1;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    
+  }
+  
+  .ChatLog__entry.ChatLog__entry_mine 
+  .ChatLog__avatar {
+    display: none;
+  }
+  
+  .ChatLog__entry .ChatLog__message {
+    position: relative;
+    margin: 0 12px;
+  }
+  
+  .ChatLog__message {
+    background-color: #7899cf;
+    padding: .5em;
+    border-radius: 4px;
+    font-weight: lighter;
+    max-width: 70%;
+  }
+  
+  .ChatLog__entry.ChatLog__entry_mine .ChatLog__message {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color:#1c3052 ;
+    color: #fff;
+}
+      
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+       
+        <ul class="ChatLog">
+          <li class="ChatLog__entry">
+            <img class="ChatLog__avatar" src="https://picsum.photos/200/300/?blur=2" />
+            <p class="ChatLog__message">
+              Hello!
+             
+            </p>
+          </li>
+          <li class="ChatLog__entry">
+            <img class="ChatLog__avatar" src="https://picsum.photos/id/237/200/300/">
+            <p class="ChatLog__message">
+              It's me , I am from california dream 
+              
+            </p>
+          </li>
+          <li class="ChatLog__entry ChatLog__entry_mine">
+            <img class="ChatLog__avatar" src="https://picsum.photos/200/300?grayscale" />
+            <p class="ChatLog__message">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut .
+              
+            </p>
+          </li>
+          <li class="ChatLog__entry">
+            <img class="ChatLog__avatar" src="https://picsum.photos/200/300?grayscale" />
+            <p class="ChatLog__message">
+              Hello! , can you hear me ?!
+              
+            </p>
+          </li>
+          <li class="ChatLog__entry ChatLog__entry_mine">
+            <img class="ChatLog__avatar" src="https://picsum.photos/200/300?grayscale" />
+            <p class="ChatLog__message">
+              pla plalalalalalalalalalalal
+              
+            </p>
+          </li>
+        </ul>
+</body>
+</html>
